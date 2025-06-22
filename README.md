@@ -13,6 +13,8 @@ DATABASE_URL=postgresql://username:password@host:port/database_name
 
 CURRENCY_API_KEY=your_currencyapi_key
 
+// API Website - https://currencyapi.com 
+
 ### Set Up the Database
 - psql -d your_database_name -f schema.sql
 
