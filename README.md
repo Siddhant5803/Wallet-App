@@ -9,7 +9,7 @@ This is a simple backend service for a digital wallet application built with **N
 
 PORT=3000
 
-DATABASE_URL=your_postgres_connection_string
+DATABASE_URL=postgresql://username:password@host:port/database_name
 
 CURRENCY_API_KEY=your_currencyapi_key
 
