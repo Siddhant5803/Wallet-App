@@ -1,22 +1,72 @@
-# Wallet App Backend
 
-This is a simple backend service for a digital wallet application built with **Node.js**, **Express**, and **PostgreSQL**. It allows users to register, fund their wallet, make payments, view transactions, and buy products. It also supports currency conversion via an external API.
+# 💸 Wallet App Backend
 
-### Install Dependencies
-- npm install
+A simple and powerful 💼 **Digital Wallet Backend** built with **Node.js**, **Express**, and **PostgreSQL**. This service allows users to:
 
-### Create a .env file in the root directory:
+- 🧾 Register & login  
+- 💰 Fund their wallet  
+- 💸 Make payments  
+- 🛍️ Buy products  
+- 📜 View transaction history  
+- 🌍 Convert currency via [CurrencyAPI](https://currencyapi.com)
 
+---
+
+## 📦 Installation
+
+### 🔧 Step 1: Install Dependencies
+
+```bash
+npm install
+```
+
+### 📁 Step 2: Create a `.env` File
+
+```env
 PORT=3000
-
 DATABASE_URL=postgresql://username:password@host:port/database_name
-
 CURRENCY_API_KEY=your_currencyapi_key
+```
 
-// API Website - https://currencyapi.com 
+> 💡 Get your currency API key from [https://currencyapi.com](https://currencyapi.com)
 
-### Set Up the Database
-- psql -d your_database_name -f schema.sql
+---
 
-###  Start the Server
-- npm start
+## 🛠️ Database Setup
+
+Make sure PostgreSQL is installed and running. Then, run the SQL schema to set up the required tables:
+
+```bash
+psql -d your_database_name -f schema.sql
+```
+
+---
+
+## 🚀 Start the Server
+
+```bash
+npm start
+```
+
+> 🖥️ The server will run at [http://localhost:3000](http://localhost:3000) by default.
+
+---
+
+## 📌 Features
+
+- 🔐 **User Authentication**  
+- 💳 **Wallet Funding & Payments**  
+- 📈 **Transaction Logs**  
+- 🛒 **Product Purchases**  
+- 🔁 **Real-time Currency Conversion**
+
+---
+
+## 📚 Tech Stack
+
+- **Backend:** Node.js + Express  
+- **Database:** PostgreSQL  
+- **API Integration:** CurrencyAPI
+
+---
+
